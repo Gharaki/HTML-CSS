@@ -1,0 +1,93 @@
+body {
+    background-image: url("./media/Fundo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; /* Ajustado para 'cover' */
+    color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+
+.Nome{
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 5px;
+}
+
+.Infos {
+
+    display:flex;
+    justify-content: space-evenly;
+  }
+  
+  .Porções {
+    color: bisque;
+    background-color: rgba(63, 17, 17);
+    width: 80%;
+    text-align: left;
+    padding: 10px;
+    border-radius: 20%;
+}
+
+.Bebidas {
+    background-color: rgba(63, 17, 17);
+    width: 80%;
+    text-align: left;
+    padding: 10px;
+    border-radius: 20%;
+  }
+  
+  .Combo {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .GrupoPrecos {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: left;
+}
+
+.GrupoCombos {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+
+.FotoCombo{
+    width: 40%;
+}
+.DadosCombo{
+    background-color: rgba(63, 17, 17);
+    border-radius: 50%;
+    width: 60%;
+    height: 89%;;
+    text-align: center;
+    padding: 10px;
+}
+.ConteudoCombo{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+}
+.ingredientes{
+    width: 50%;
+}
+.Preco{
+
+    text-align: center;
+}
+img{
+    border-radius: 50%;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 10%;
+}
